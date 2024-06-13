@@ -3,9 +3,8 @@
 # Instructions:
  1. git clone danilandau84/hopping-app-backend.git
  2. cd hopping-app-backend
- 3. run command: npm init -y"
- 4. npm install express sequelize tedious body-parse
- 5. run command: node server.js"
+ 3. npm install express sequelize tedious body-parse
+ 4. run command: node server.js"
 
 # Docker Instructions:
 1. Build docker image command: docker build -t my-nodejs-app .
