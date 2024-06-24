@@ -15,7 +15,7 @@ Set your Mssql connnection detail in .env file.
 
 ## Optional- Run mssql on Docker Container:
 1. pull docker command: docker pull mcr.microsoft.com/mssql/server:2019-CU8-ubuntu-20.04
-2. Run  docker command: docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=Password$1807" -p 1433:1433 --name mssql -d mcr.microsoft.com/mssql/server:2019-latest
+2. Run  docker command: docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=YourStrong!Passw0rd" -p 1433:1433 --name mssql -d mcr.microsoft.com/mssql/server:2019-latest
 
     
 
